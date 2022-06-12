@@ -1,0 +1,693 @@
+#include <iostream>
+
+using namespace std;
+
+int nhaphangsang1();
+int nhaphangtoi1();
+
+int nhaphangsang2();
+int nhaphangtoi2();
+
+int nhaphangsang3();
+int nhaphangtoi3();
+
+int nhaphangsang4();
+int nhaphangtoi4();
+
+int nhaphangsang5();
+int nhaphangtoi5();
+
+int nhaphangsang6();
+int nhaphangtoi6();
+
+int nhaphangsang7();
+int nhaphangtoi7();
+
+int nhaphangsang8();
+int nhaphangtoi8();
+
+int nhaphangsang9();
+int nhaphangtoi9();
+
+int nhaphangsang10();
+int nhaphangtoi10();
+
+int nhaphangsang11();
+int nhaphangtoi11();
+
+int nhaphangsang12();
+int nhaphangtoi12();
+
+int nhaphangsang13();
+int nhaphangtoi13();
+
+int nhaphangsang14();
+int nhaphangtoi14();
+
+int nhaphangsang15();
+int nhaphangtoi15();
+
+int nhaphangsang16();
+int nhaphangtoi16();
+
+int nhaphangsang17();
+int nhaphangtoi17();
+
+int nhaphangsang18();
+int nhaphangtoi18();
+
+int nhaphangsang19();
+int nhaphangtoi19();
+
+int nhaphangsang20();
+int nhaphangtoi20();
+
+int nhaphangsang21();
+int nhaphangtoi21();
+
+int nhaphangsang22();
+int nhaphangtoi22();
+
+int nhaphangsang23();
+int nhaphangtoi23();
+
+int nhaphangsang24();
+int nhaphangtoi24();
+
+int nhaphangsang25();
+int nhaphangtoi25();
+
+int nhaphangsang26();
+int nhaphangtoi26();
+
+int nhaphangsang27();
+int nhaphangtoi27();
+
+int nhaphangsang28();
+int nhaphangtoi28();
+
+
+
+
+int main()
+{
+	int sum1, sum2, sum3, sum4, sum5, sum6, sum7, sum8, sum9, sum10, sum11, sum12, sum13, sum14, sum15, sum16, sum17, sum18,
+	sum19, sum20, sum21, sum22, sum23, sum24, sum25, sum26, sum27, sum28;
+	  
+	    sum1 = nhaphangsang1() - nhaphangtoi1();
+	    cout << "===========================" << endl;
+	    cout << "So luong da ban duoc la: " << sum1 <<endl;
+	    cout << "===========================" << endl;
+	    
+	    sum2 = nhaphangsang2() - nhaphangtoi2();
+	    cout << "===========================" << endl;
+	    cout << "So luong da ban duoc la: " << sum2 <<endl;
+	    cout << "===========================" << endl;
+	    
+	    sum3 = nhaphangsang3() - nhaphangtoi3();
+	    cout << "===========================" << endl;
+	    cout << "So luong da ban duoc la: " << sum3 <<endl;
+	    cout << "===========================" << endl;
+	    
+	    sum4 = nhaphangsang4() - nhaphangtoi4();
+	    cout << "===========================" << endl;
+	    cout << "So luong da ban duoc la: " << sum4 <<endl;
+	    cout << "===========================" << endl;
+	    
+	    sum5 = nhaphangsang5() - nhaphangtoi5();
+	    cout << "===========================" << endl;
+	    cout << "So luong da ban duoc la: " << sum5 <<endl;
+	    cout << "===========================" << endl;
+	    
+	    sum6 = nhaphangsang6() - nhaphangtoi6();
+	    cout << "===========================" << endl;
+	    cout << "So luong da ban duoc la: " << sum6 <<endl;
+	    cout << "===========================" << endl;
+	    
+	    sum7 = nhaphangsang7() - nhaphangtoi7();
+	    cout << "===========================" << endl;
+	    cout << "So luong da ban duoc la: " << sum7 <<endl;
+	    cout << "===========================" << endl;
+	    
+	    sum8 = nhaphangsang8() - nhaphangtoi8();
+	    cout << "===========================" << endl;
+	    cout << "So luong da ban duoc la: " << sum8 <<endl;
+	    cout << "===========================" << endl;
+	    
+	    sum9 = nhaphangsang9() - nhaphangtoi9();
+	    cout << "===========================" << endl;
+	    cout << "So luong da ban duoc la: " << sum9 <<endl;
+	    cout << "===========================" << endl;
+	    
+	    sum10 = nhaphangsang10() - nhaphangtoi10();
+	    cout << "===========================" << endl;
+	    cout << "So luong da ban duoc la: " << sum10 <<endl;
+	    cout << "===========================" << endl;
+	    
+	    sum11 = nhaphangsang11() - nhaphangtoi11();
+	    cout << "===========================" << endl;
+	    cout << "So luong da ban duoc la: " << sum11 <<endl;
+	    cout << "===========================" << endl;
+	    
+	    sum12 = nhaphangsang12() - nhaphangtoi12();
+	    cout << "===========================" << endl;
+	    cout << "So luong da ban duoc la: " << sum12 <<endl;
+	    cout << "===========================" << endl;
+	    
+	    sum13 = nhaphangsang13() - nhaphangtoi13();
+	    cout << "===========================" << endl;
+	    cout << "So luong da ban duoc la: " << sum12 <<endl;
+	    cout << "===========================" << endl;
+	    
+	    sum14 = nhaphangsang14() - nhaphangtoi14();
+	    cout << "===========================" << endl;
+	    cout << "So luong da ban duoc la: " << sum14 <<endl;
+	    cout << "===========================" << endl;
+	    
+	    sum15 = nhaphangsang15() - nhaphangtoi15();
+	    cout << "===========================" << endl;
+	    cout << "So luong da ban duoc la: " << sum15 <<endl;
+	    cout << "===========================" << endl;
+	    
+	    sum16 = nhaphangsang16() - nhaphangtoi16();
+	    cout << "===========================" << endl;
+	    cout << "So luong da ban duoc la: " << sum16 <<endl;
+	    cout << "===========================" << endl;
+	    
+	    sum17 = nhaphangsang17() - nhaphangtoi17();
+	    cout << "===========================" << endl;
+	    cout << "So luong da ban duoc la: " << sum17 <<endl;
+	    cout << "===========================" << endl;
+	    
+	    sum18 = nhaphangsang18() - nhaphangtoi18();
+	    cout << "===========================" << endl;
+	    cout << "So luong da ban duoc la: " << sum18 <<endl;
+	    cout << "===========================" << endl;
+	    
+	    sum19 = nhaphangsang19() - nhaphangtoi19();
+	    cout << "===========================" << endl;
+	    cout << "So luong da ban duoc la: " << sum19 <<endl;
+	    cout << "===========================" << endl;
+	    
+	    sum20 = nhaphangsang20() - nhaphangtoi20();
+	    cout << "===========================" << endl;
+	    cout << "So luong da ban duoc la: " << sum20 <<endl;
+	    cout << "===========================" << endl;
+	    
+	    sum21 = nhaphangsang21() - nhaphangtoi21();
+	    cout << "===========================" << endl;
+	    cout << "So luong da ban duoc la: " << sum21 <<endl;
+	    cout << "===========================" << endl;
+	    
+	    sum22 = nhaphangsang22() - nhaphangtoi22();
+	    cout << "===========================" << endl;
+	    cout << "So luong da ban duoc la: " << sum22 <<endl;
+	    cout << "===========================" << endl;
+	    
+	    sum23 = nhaphangsang23() - nhaphangtoi23();
+	    cout << "===========================" << endl;
+	    cout << "So luong da ban duoc la: " << sum23 <<endl;
+	    cout << "===========================" << endl;
+	    
+	    sum24 = nhaphangsang24() - nhaphangtoi24();
+	    cout << "===========================" << endl;
+	    cout << "So luong da ban duoc la: " << sum24 <<endl;
+	    cout << "===========================" << endl;
+	    
+	    sum25 = nhaphangsang25() - nhaphangtoi25();
+	    cout << "===========================" << endl;
+	    cout << "So luong da ban duoc la: " << sum25 <<endl;
+	    cout << "===========================" << endl;
+	    
+	    sum26 = nhaphangsang26() - nhaphangtoi26();
+	    cout << "===========================" << endl;
+	    cout << "So luong da ban duoc la: " << sum26 <<endl;
+	    cout << "===========================" << endl;
+	    
+	    sum27 = nhaphangsang27() - nhaphangtoi27();
+	    cout << "===========================" << endl;
+	    cout << "So luong da ban duoc la: " << sum27 <<endl;
+	    cout << "===========================" << endl;
+	    
+	    sum28 = nhaphangsang28() - nhaphangtoi28();
+	    cout << "===========================" << endl;
+	    cout << "So luong da ban duoc la: " << sum28 <<endl;
+	    cout << "===========================" << endl;
+	    
+    return 0;
+}
+
+
+
+// mang nhap hang buoi sang 1
+int nhaphangsang1()
+{
+  int a;
+  cout << "Nhap so luong '247' cua ca ngay:  ";
+  cin >> a;
+  return a;
+}
+// mang nhap hang buoi toi 1
+int nhaphangtoi1()
+{
+  int a1;
+  cout << "Nhap so luong '247' cua buoi toi: ";
+  cin >> a1;
+  return a1;
+}
+// mang nhap hang buoi sang 2
+int nhaphangsang2()
+{
+  int a;
+  cout << "Nhap so luong '7 UP' cua ca ngay: ";
+  cin >> a;
+  return a;
+}
+// mang nhap hang buoi toi 2
+int nhaphangtoi2()
+{
+  int a;
+  cout << "Nhap so luong '7 UP' cua buoi toi: ";
+  cin >> a;
+  return a;
+} 
+// mang nhap hang buoi sang 3
+int nhaphangsang3()
+{
+  int a;
+  cout << "Nhap so luong 'BI DAO' cua ca ngay: ";
+  cin >> a;
+  return a;
+}
+// mang nhap hang buoi toi 3
+int nhaphangtoi3()
+{
+  int a1;
+  cout << "Nhap so luong 'BI DAO' cua buoi toi: ";
+  cin >> a1;
+  return a1;
+}
+
+// mang nhap hang buoi sang 4
+int nhaphangsang4()
+{
+  int a;
+  cout << "Nhap so luong 'CAM CHAI' cua ca ngay: ";
+  cin >> a;
+  return a;
+}
+// mang nhap hang buoi toi 4
+int nhaphangtoi4()
+{
+  int a;
+  cout << "Nhap so luong 'CAM CHAI' cua buoi toi: ";
+  cin >> a;
+  return a;
+} 
+// mang nhap hang buoi sang 5
+int nhaphangsang5()
+{
+  int a;
+  cout << "Nhap so luong 'CHANH MUOI' cua ca ngay:: ";
+  cin >> a;
+  return a;
+}
+// mang nhap hang buoi toi 5
+int nhaphangtoi5()
+{
+  int a;
+  cout << "Nhap so luong 'CHANH MUOI' cua buoi toi: ";
+  cin >> a;
+  return a;
+} 
+// mang nhap hang buoi sang 6
+int nhaphangsang6()
+{
+  int a;
+  cout << "Nhap so luong 'COCA COLA' cua ca ngay: ";
+  cin >> a;
+  return a;
+}
+// mang nhap hang buoi toi 6
+int nhaphangtoi6()
+{
+  int a;
+  cout << "Nhap so luong 'COCA COLA' cua buoi toi: ";
+  cin >> a;
+  return a;
+} 
+// mang nhap hang buoi sang 7
+int nhaphangsang7()
+{
+  int a;
+  cout << "Nhap so luong 'DR THANH' cua ca ngay: ";
+  cin >> a;
+  return a;
+}
+// mang nhap hang buoi toi 7
+int nhaphangtoi7()
+{
+  int a;
+  cout << "Nhap so luong 'DR THANH' cua buoi toi: ";
+  cin >> a;
+  return a;
+} 
+// mang nhap hang buoi sang 8
+int nhaphangsang8()
+{
+  int a;
+  cout << "Nhap so luong 'NUMBER ONE' cua ca ngay: ";
+  cin >> a;
+  return a;
+}
+// mang nhap hang buoi toi 8
+int nhaphangtoi8()
+{
+  int a;
+  cout << "Nhap so luong 'NUMBER ONE' cua buoi toi: ";
+  cin >> a;
+  return a;
+} 
+// mang nhap hang buoi sang 9
+int nhaphangsang9()
+{
+  int a;
+  cout << "Nhap so luong 'O LONG' cua ca ngay: ";
+  cin >> a;
+  return a;
+}
+// mang nhap hang buoi toi 9
+int nhaphangtoi9()
+{
+  int a;
+  cout << "Nhap so luong 'O LONG' cua buoi toi: ";
+  cin >> a;
+  return a;
+} 
+// mang nhap hang buoi sang 10
+int nhaphangsang10()
+{
+  int a;
+  cout << "Nhap so luong 'PEPSI' cua ca ngay: ";
+  cin >> a;
+  return a;
+}
+// mang nhap hang buoi toi 10
+int nhaphangtoi10()
+{
+  int a;
+  cout << "Nhap so luong 'PEPSI' cua buoi toi: ";
+  cin >> a;
+  return a;
+} 
+// mang nhap hang buoi sang 11
+int nhaphangsang11()
+{
+  int a;
+  cout << "Nhap so luong 'REDBULL' cua ca ngay: ";
+  cin >> a;
+  return a;
+}
+// mang nhap hang buoi toi 11
+int nhaphangtoi11()
+{
+  int a;
+  cout << "Nhap so luong 'REDBULL' cua buoi toi: ";
+  cin >> a;
+  return a;
+} 
+// mang nhap hang buoi sang 12
+int nhaphangsang12()
+{
+  int a;
+  cout << "Nhap so luong 'STING' cua ca ngay: ";
+  cin >> a;
+  return a;
+}
+// mang nhap hang buoi toi 12
+int nhaphangtoi12()
+{
+  int a;
+  cout << "Nhap so luong 'STING' cua buoi toi: ";
+  cin >> a;
+  return a;
+} 
+// mang nhap hang buoi sang 13
+int nhaphangsang13()
+{
+  int a;
+  cout << "Nhap so luong 'SUOI' cua ca ngay: ";
+  cin >> a;
+  return a;
+}
+// mang nhap hang buoi toi 13
+int nhaphangtoi13()
+{
+  int a;
+  cout << "Nhap so luong 'SUOI' cua buoi toi: ";
+  cin >> a;
+  return a;
+} 
+// mang nhap hang buoi sang 14
+int nhaphangsang14()
+{
+  int a;
+  cout << "Nhap so luong 'TRA C2' cua ca ngay: ";
+  cin >> a;
+  return a;
+}
+// mang nhap hang buoi toi 14
+int nhaphangtoi14()
+{
+  int a;
+  cout << "Nhap so luong 'TRA C2' cua buoi toi: ";
+  cin >> a;
+  return a;
+} 
+// mang nhap hang buoi sang 15
+int nhaphangsang15()
+{
+  int a;
+  cout << "Nhap so luong 'DUA TUOI' cua ca ngay: ";
+  cin >> a;
+  return a;
+}
+// mang nhap hang buoi toi 15
+int nhaphangtoi15()
+{
+  int a;
+  cout << "Nhap so luong 'DUA TUOI' cua buoi toi: ";
+  cin >> a;
+  return a;
+} 
+// mang nhap hang buoi sang 16
+int nhaphangsang16()
+{
+  int a;
+  cout << "Nhap so luong ' THUOC BA SO' cua ca ngay: ";
+  cin >> a;
+  return a;
+}
+// mang nhap hang buoi toi 16
+int nhaphangtoi16()
+{
+  int a;
+  cout << "Nhap so luong 'THUOC BA SO' cua buoi toi: ";
+  cin >> a;
+  return a;
+} 
+// mang nhap hang buoi sang 17
+int nhaphangsang17()
+{
+  int a;
+  cout << "Nhap so luong 'THUOC MEO LON' cua ca ngay: ";
+  cin >> a;
+  return a;
+}
+// mang nhap hang buoi toi 17
+int nhaphangtoi17()
+{
+  int a;
+  cout << "Nhap so luong 'THUOC MEO LON' cua buoi toi: ";
+  cin >> a;
+  return a;
+} 
+// mang nhap hang buoi sang 18
+int nhaphangsang18()
+{
+  int a;
+  cout << "Nhap so luong 'THUOC MEO NHO' cua ca ngay: ";
+  cin >> a;
+  return a;
+}
+// mang nhap hang buoi toi 18
+int nhaphangtoi18()
+{
+  int a;
+  cout << "Nhap so luong 'THUOC MEO NHO' cua buoi toi: ";
+  cin >> a;
+  return a;
+} 
+// mang nhap hang buoi sang 19
+int nhaphangsang19()
+{
+  int a;
+  cout << "Nhap so luong 'TRA VAI' cua ca ngay: ";
+  cin >> a;
+  return a;
+}
+// mang nhap hang buoi toi 19
+int nhaphangtoi19()
+{
+  int a;
+  cout << "Nhap so luong 'TRA VAI' cua buoi toi: ";
+  cin >> a;
+  return a;
+} 
+// mang nhap hang buoi sang 20
+int nhaphangsang20()
+{
+  int a;
+  cout << "Nhap so luong 'TRA LIPTON' cua ca ngay: ";
+  cin >> a;
+  return a;
+}
+// mang nhap hang buoi toi 20
+int nhaphangtoi20()
+{
+  int a;
+  cout << "Nhap so luong 'TRA LIPTON' cua buoi toi: ";
+  cin >> a;
+  return a;
+} 
+// mang nhap hang buoi sang 21
+int nhaphangsang21()
+{
+  int a;
+  cout << "Nhap so luong 'TRA GUNG' cua ca ngay: ";
+  cin >> a;
+  return a;
+}
+// mang nhap hang buoi toi 21
+int nhaphangtoi21()
+{
+  int a;
+  cout << "Nhap so luong 'TRA GUNG' cua buoi toi: ";
+  cin >> a;
+  return a;
+} 
+// mang nhap hang buoi sang 22
+int nhaphangsang22()
+{
+  int a;
+  cout << "Nhap so luong 'TRA DAO' cua ca ngay: ";
+  cin >> a;
+  return a;
+}
+// mang nhap hang buoi toi 22
+int nhaphangtoi22()
+{
+  int a;
+  cout << "Nhap so luong 'TRA DAO' cua buoi toi: ";
+  cin >> a;
+  return a;
+} 
+// mang nhap hang buoi sang 23
+int nhaphangsang23()
+{
+  int a;
+  cout << "Nhap so luong 'SAU RIENG' cua ca ngay: ";
+  cin >> a;
+  return a;
+}
+// mang nhap hang buoi toi 23
+int nhaphangtoi23()
+{
+  int a;
+  cout << "Nhap so luong 'SAU RIENG' cua buoi toi: ";
+  cin >> a;
+  return a;
+} 
+// mang nhap hang buoi sang 24
+int nhaphangsang24()
+{
+  int a;
+  cout << "Nhap so luong 'XOAI' cua ca ngay: ";
+  cin >> a;
+  return a;
+}
+// mang nhap hang buoi toi 24
+int nhaphangtoi24()
+{
+  int a;
+  cout << "Nhap so luong 'XOAI' cua buoi toi: ";
+  cin >> a;
+  return a;
+} 
+// mang nhap hang buoi sang 25
+int nhaphangsang25()
+{
+  int a;
+  cout << "Nhap so luong 'BO' cua ca ngay: ";
+  cin >> a;
+  return a;
+}
+// mang nhap hang buoi toi 25
+int nhaphangtoi25()
+{
+  int a;
+  cout << "Nhap so luong 'BO' cua buoi toi: ";
+  cin >> a;
+  return a;
+} 
+// mang nhap hang buoi sang 26
+int nhaphangsang26()
+{
+  int a;
+  cout << "Nhap so luong 'DU DU' cua ca ngay: ";
+  cin >> a;
+  return a;
+}
+// mang nhap hang buoi toi 26
+int nhaphangtoi26()
+{
+  int a;
+  cout << "Nhap so luong 'DU DU' cua buoi toi: ";
+  cin >> a;
+  return a;
+} 
+// mang nhap hang buoi sang 27
+int nhaphangsang27()
+{
+  int a;
+  cout << "Nhap so luong 'MANG CAU' cua ca ngay: ";
+  cin >> a;
+  return a;
+}
+// mang nhap hang buoi toi 27
+int nhaphangtoi27()
+{
+  int a;
+  cout << "Nhap so luong 'MANG CAU' cua buoi toi: ";
+  cin >> a;
+  return a;
+} 
+// mang nhap hang buoi sang 28
+int nhaphangsang28()
+{
+  int a;
+  cout << "Nhap so luong 'SAMPOCHE' cua ca ngay: ";
+  cin >> a;
+  return a;
+}
+// mang nhap hang buoi toi 28
+int nhaphangtoi28()
+{
+  int a;
+  cout << "Nhap so luong 'SAMPOCHE' cua buoi toi: ";
+  cin >> a;
+  return a;
+} 
+
+
+
